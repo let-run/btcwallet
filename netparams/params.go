@@ -37,3 +37,9 @@ var SimNetParams = Params{
 	RPCClientPort: "18556",
 	RPCServerPort: "18554",
 }
+
+var RegressionNetParams = Params{
+	Params:        &chaincfg.RegressionNetParams,
+	RPCClientPort: "18334",
+	RPCServerPort: "18555",
+}
